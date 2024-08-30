@@ -13,6 +13,8 @@ html, body{
 
 body{
     background-color: #E5E7DF;
+    font-family: gilroy;
+
     
    
 }
@@ -55,4 +57,47 @@ nav ul a:hover{
 
     cursor: pointer;
     border-bottom: 1px solid black;
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.content{
+
+    padding: 10px 30px;
+    width: 100%;
+    display: flex;
+}
+
+.content .left{
+
+    width: 50%;
+    font-size: 26px;
+    margin-bottom: 20px;
+
+}
+
+.content .left button{
+
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+    width: 30%;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content .right{
+    width: 60%;
+    font-size: 45px;
+    font-weight: 500;
 }

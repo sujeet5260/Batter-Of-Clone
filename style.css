@@ -74,6 +74,7 @@ main{
     font-size: 28px;
     padding-bottom: 10px;
     border: none;
+    background-color: transparent;
     color: #1E1E1E;
     border-bottom: 1px solid #1E1E1E;
     display: flex;
@@ -139,4 +140,43 @@ main{
     margin-bottom: 5%;
     height: 1px;
     background-color: rgb(220, 220, 220);
+}
+
+.page3{
+    width: 100%;
+    
+
+}
+.page3-content{
+    display: flex;
+    margin: 0 30px;
+    margin-top: 50px;
+}
+.page3 .left-content{
+    width: 50%;
+}
+
+.page3 .center-content{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.page3 .right-content{
+    width: 20%;
+
+}
+.page3  .center-content p{
+    margin-bottom: 60px;
+
+}
+.page3 .center-content h1{
+    margin-bottom: 15px;
+}
+.page3 .center-content p{
+    color: #949690;
+    font-size: 26px;
+
+}
+.page3 .right-content{
+    text-align: end;
 }
